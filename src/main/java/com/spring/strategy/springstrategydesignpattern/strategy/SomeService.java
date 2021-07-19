@@ -15,7 +15,7 @@ public class SomeService {
 
         // Now get the strategy by passing the name
         Optional<Strategy> strategy =
-                strategyFactory.findStrategy(StrategyName.StrategyD);
+                strategyFactory.findStrategy(StrategyName.StrategyC);
         // you can now call the methods defined in strategy.
         strategy.get().doStuff();
     }
